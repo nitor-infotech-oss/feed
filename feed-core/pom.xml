@@ -7,8 +7,8 @@
     <artifactId>feed</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>feed-model</artifactId>
-  <name>feed-model</name>
+  <artifactId>feed-core</artifactId>
+  <name>feed-core</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -20,4 +20,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+  
 </project>
