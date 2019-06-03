@@ -8,7 +8,7 @@ public class FeedApiForMessagingFrameworkApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FeedApiForMessagingFrameworkApplication.class, args);
-		
+
 		System.out.println("################ Success ##################");
 	}
 
